@@ -1,0 +1,17 @@
+/* Layout.css */
+.containere {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  .section-padding {
+    padding: 6rem 0;
+  }
+  
+  @media (max-width: 768px) {
+    .section-padding {
+      padding: 4rem 0;
+    }
+  }
