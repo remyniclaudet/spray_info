@@ -21,7 +21,7 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about" className="about section-padding">
+    <section id="about" className="about">
       <div className="containere">
         <div className="section-header-about" data-animate>
           <h2>À <span className="text-gradient">Propos</span></h2>

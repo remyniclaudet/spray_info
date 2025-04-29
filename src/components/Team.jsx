@@ -57,7 +57,7 @@ const Team = () => {
   }, []);
 
   return (
-    <section id="team" className="team section-padding">
+    <section id="team" className="team">
       <div className="containere">
         <div className="section-header" data-animate>
           <h2>Notre <span className="text-gradient">Équipe</span></h2>
