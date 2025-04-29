@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content">
           <h1 className="hero-title">
-            <span className="text-gradient">Spray Info</span>
+            <span className="text-gradient">spray_info</span>
             <span className="hero-subtitle">L'Excellence Technologique</span>
           </h1>
           

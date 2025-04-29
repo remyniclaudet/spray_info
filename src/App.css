@@ -21,6 +21,11 @@
   box-sizing: border-box;
 }
 
+.App {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 16px;
@@ -32,6 +37,7 @@ body {
   color: var(--dark);
   line-height: 1.6;
   overflow-x: hidden;
+  width: 100%;
 }
 
 
@@ -104,4 +110,10 @@ h4 { font-size: 1.25rem; }
 [data-animate].animate {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 4rem 1rem;
+  }
 }

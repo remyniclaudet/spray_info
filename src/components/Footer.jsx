@@ -4,7 +4,7 @@ import '../assets/styles/Footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container">
+      <div className="containere">
         <div className="footer-content">
           <div className="footer-brand">
             <h3 className="logo">Spray Info</h3>
