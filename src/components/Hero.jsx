@@ -12,7 +12,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="hero">
-      <div className="containere">
+      <div className="container">
         <div className="hero-content">
           <h1 className="hero-title">
             <span className="text-gradient">spray_info</span>

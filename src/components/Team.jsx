@@ -4,7 +4,6 @@ import pdg from '../assets/images/4.png'
 import dev from '../assets/images/6.png'
 import malala from '../assets/images/5.png'
 import '../assets/styles/Team.css';
-import '../assets/styles/Layout.css'
 
 const team = [
   {
@@ -58,7 +57,7 @@ const Team = () => {
 
   return (
     <section id="team" className="team">
-      <div className="containere">
+      <div className="container">
         <div className="section-header" data-animate>
           <h2>Notre <span className="text-gradient">Équipe</span></h2>
           <p className="section-subtitle">Des experts passionnés par votre réussite</p>

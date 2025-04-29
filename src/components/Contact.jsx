@@ -5,7 +5,7 @@ import ContactForm from './ContactForm';
 const Contact = () => {
   return (
     <section id="contact" className="contact">
-      <div className="containere">
+      <div className="container">
         <div className="contact-container">
           <div className="contact-info" data-animate>
             <h2>Contactez <span className="text-gradient">Nous</span></h2>

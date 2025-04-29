@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import hero from '../assets/images/hero.png';
-import '../assets/styles/Layout.css'
 import '../assets/styles/About.css';
 
 const About = () => {
@@ -22,7 +21,7 @@ const About = () => {
 
   return (
     <section id="about" className="about">
-      <div className="containere">
+      <div className="container">
         <div className="section-header-about" data-animate>
           <h2>À <span className="text-gradient">Propos</span></h2>
           <p className="section-subtitle">Notre expertise au service de votre réussite</p>

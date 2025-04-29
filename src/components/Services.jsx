@@ -59,7 +59,7 @@ const Services = () => {
 
   return (
     <section id="services" className="services">
-      <div className="containere">
+      <div className="container">
         <div className="section-header" data-animate>
           <h2>Nos <span className="text-gradient">Services</span></h2>
           <p className="section-subtitle">
