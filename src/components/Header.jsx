@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
-      <div className="container">
+      <div className="container-header">
         <img src={logo} alt="Logo Spray Info" className="logo" />
         
         <nav className={`nav ${menuOpen ? 'open' : ''}`}>

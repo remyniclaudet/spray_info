@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 
-.hero .container {
+.hero .containere {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -164,7 +164,7 @@
 }
 
 @media (max-width: 1024px) {
-  .hero .container {
+  .hero .containere {
     flex-direction: column;
     text-align: center;
     padding-top: 6rem;
