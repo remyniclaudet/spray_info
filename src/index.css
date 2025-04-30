@@ -3,6 +3,13 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Dans index.css */
+body, html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 /* Scroll animations */
 [data-animate] {
   opacity: 0;

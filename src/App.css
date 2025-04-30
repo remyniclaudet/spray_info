@@ -15,10 +15,18 @@
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Dans App.css */
+.App {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {

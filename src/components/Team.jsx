@@ -73,7 +73,7 @@ const Team = () => {
             >
               <div className="card-image">
                 <img src={member.photo} alt={member.name} />
-                <div className="social-links">
+                <div className="social-links-team">
                   <a href={member.social.linkedin} aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-linkedin-in"></i>
                   </a>

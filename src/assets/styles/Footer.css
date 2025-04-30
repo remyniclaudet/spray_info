@@ -183,6 +183,10 @@
   .footer-contact li {
     justify-content: center;
   }
+
+  .social-links {
+    justify-content: center;
+  }
   
   .legal-links {
     flex-direction: column;

@@ -4,16 +4,11 @@ import '../assets/styles/Footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="containere">
+      <div className="container">
         <div className="footer-content">
           <div className="footer-brand">
             <h3 className="logo">Spray Info</h3>
             <p className="tagline">L'Excellence Technologique</p>
-            <div className="social-links">
-              <a href="https://web.facebook.com/profile.php?id=100083174350034&_rdc=1&_rdr" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
-              <a href="https://github.com/remyniclaudet" aria-label="Github"><i className="fab fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/remy-niclaudet-razakatsara-57564b318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
-            </div>
           </div>
 
           <div className="footer-links">
@@ -48,6 +43,11 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
+          <div className="social-links">
+            <a href="https://web.facebook.com/profile.php?id=100083174350034&_rdc=1&_rdr" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/remyniclaudet" aria-label="Github"><i className="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/remy-niclaudet-razakatsara-57564b318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
+          </div>
           <p>&copy; {new Date().getFullYear()} Spray Info. Tous droits réservés.</p>
           <div className="legal-links">
             <a href="#">Politique de confidentialité</a>
