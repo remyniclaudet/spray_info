@@ -199,6 +199,11 @@
         padding-top: 0;
       }
 
+      .tech-circle {
+        width: 300px;
+        height: 250px;
+      }
+
     .hero-buttons {
       flex-direction: column;
     }
