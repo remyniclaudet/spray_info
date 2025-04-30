@@ -211,4 +211,8 @@
     .btn {
       width: 100%;
     }
+
+    .hero-visual {
+        min-height: 200px;
+      }
   }
