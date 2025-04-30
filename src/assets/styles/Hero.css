@@ -196,7 +196,7 @@
   @media (max-width: 768px) {
 
     .hero .container {
-        padding-top: 2rem;
+        padding-top: 0;
       }
 
     .hero-buttons {
