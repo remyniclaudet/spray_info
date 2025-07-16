@@ -15,27 +15,41 @@ const Services = () => {
       icon: "fas fa-network-wired",
       color: "#059669"
     },
+ 
     {
+      title: "Université Privé",
+      description: "Former des futurs experts de l'informatique, alliant expertise académique et savoir-faire pratique pour répondre aux défis du monde numérique.",
+      icon: "fas fa-university",
+      color: "#d97706"
+    },
+       {
       title: "Formation en Informatique",
       description: "Cours approfondis en programmation, réseaux et systèmes.",
       icon: "fas fa-laptop-code",
       color: "#7c3aed"
     },
     {
-      title: "Développement Personnel",
-      description: "Ateliers pour améliorer confiance en soi et leadership.",
-      icon: "fas fa-chart-line",
-      color: "#d97706"
-    },
-    {
-      title: "Communication Digitale",
-      description: "Stratégies de communication efficace pour le milieu professionnel.",
+      title: (
+        <div style={{ textAlign: "center", fontSize: "1rem"}}>
+          <div>Développement personnel</div>
+          <div style={{ fontWeight: 'bold', fontSize: "1rem", marginTop: 2 ,}}>
+            Communication et Marketing digital
+          </div>
+        </div>
+      ),
+      description: (
+        <ul style={{ paddingLeft: 18, margin: 0 }}>
+          <li>Ateliers pour améliorer confiance en soi et leadership.</li>
+          <li>Stratégies de communication efficace pour le milieu professionnel.</li>
+          <li>Stratégies de marketing en ligne.</li>
+        </ul>
+      ),
       icon: "fas fa-comments",
       color: "#db2777"
     },
     {
-      title: "Marketing Digital",
-      description: "Stratégies de marketing en ligne et gestion des réseaux sociaux.",
+      title: "Autres services numériques",
+      description: "",
       icon: "fas fa-bullhorn",
       color: "#9333ea"
     }

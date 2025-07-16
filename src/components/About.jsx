@@ -70,7 +70,7 @@ const About = () => {
             <img src={hero} alt="Équipe Spray Info" />
             <div className="achievement-badge">
               <span className="badge-number">100+</span>
-              <span className="badge-text">Clients satisfaits</span>
+              <span className="badge-text">Etudiants satisfaits</span>
             </div>
           </div>
 

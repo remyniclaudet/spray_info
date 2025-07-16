@@ -23,7 +23,7 @@ const Header = () => {
           <a href="#home">Accueil</a>
           <a href="#about">À Propos</a>
           <a href="#services">Services</a>
-          <a href="#team">Équipe</a>
+          {/*<a href="#team">Équipe</a>*/}
           <a href="#contact" className="cta-nav">Contact</a>
         </nav>
 
