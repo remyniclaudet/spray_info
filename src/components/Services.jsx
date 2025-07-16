@@ -32,7 +32,7 @@ const Services = () => {
       title: (
         <div style={{ textAlign: "center", fontSize: "1rem"}}>
           <div>Développement personnel</div>
-          <div style={{ fontWeight: 'bold', fontSize: "1rem", marginTop: 2 ,}}>
+          <div style={{ fontWeight: 2000, fontSize: "1rem", marginTop: 2 ,}}>
             Communication et Marketing digital
           </div>
         </div>
